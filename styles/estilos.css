@@ -27,6 +27,7 @@
 
 .contenedor-imagen {
     position: relative;
+    margin-bottom: 200px;
 }
 
 .descripcion-tarjeta {
@@ -104,11 +105,21 @@
 
 @media screen and (max-width: 320px) {
     .contenedor-imagen {
-        margin-bottom: 510px;
+        margin-bottom: 710px;
     }
 
     .contenedor-vigilancia {
-        margin-bottom: -100px;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contenedor-imagen {
+        margin-bottom: 410px;
+    }
+
+    .contenedor-vigilancia {
+        margin-bottom: 200px;
     }
 }
 
